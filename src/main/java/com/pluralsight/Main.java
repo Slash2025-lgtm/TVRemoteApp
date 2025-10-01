@@ -51,7 +51,7 @@ public class Main {
                         channel = typedChannel;
                     }
                 } else if (channelChange.equalsIgnoreCase("C")) {
-                    tvRemote.finalResult(deviceName, tvRemote.getPowerState(), device, volume);
+                    tvRemote.finalResult(deviceName, manufacturer, device, volume);
 
                     if (device == 1) {
                         repeat = true;
